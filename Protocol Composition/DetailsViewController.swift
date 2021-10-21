@@ -1,6 +1,7 @@
 
 
 import UIKit
+import Kingfisher
 
 class DetailsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
    
@@ -60,8 +61,9 @@ class DetailsViewController: UIViewController, UITableViewDelegate, UITableViewD
         case .idAndImage:
             if let cell = detailsTableView.dequeueReusableCell(withIdentifier: "IDImagecell", for: indexPath) as? IdAndImageCell{
                 cell.idLabel.text = "\(empData[index!].id!)"
-                //cell.idLabel.text = ""
-                cell.empImage.image = UIImage(systemName: "pencil")
+                let imgUrl = URL(string: empData[index!].avatar!)
+               cell.empImage.kf.setImage(with: imgUrl)
+                //cell.empImage.image = UIImage(systemName: "pencil")
             return cell
             }
         case .email:
