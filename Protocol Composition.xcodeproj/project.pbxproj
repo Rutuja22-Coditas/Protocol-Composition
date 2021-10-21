@@ -13,6 +13,15 @@
 		7E16536B271806BF0067284A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E165369271806BF0067284A /* Main.storyboard */; };
 		7E16536D271806C10067284A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E16536C271806C10067284A /* Assets.xcassets */; };
 		7E165370271806C10067284A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E16536E271806C10067284A /* LaunchScreen.storyboard */; };
+		7E16537827180C4D0067284A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E16537727180C4D0067284A /* User.swift */; };
+		7E3D4ECE271D3696003AD3FB /* EmployeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3D4ECD271D3696003AD3FB /* EmployeeViewModel.swift */; };
+		7E3D4ED0271D3A0C003AD3FB /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3D4ECF271D3A0C003AD3FB /* DetailsViewController.swift */; };
+		7E3D4ED7271DA7A6003AD3FB /* EmpemailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3D4ED5271DA7A6003AD3FB /* EmpemailTableViewCell.swift */; };
+		7E3D4ED8271DA7A6003AD3FB /* EmpemailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E3D4ED6271DA7A6003AD3FB /* EmpemailTableViewCell.xib */; };
+		7E3D4EDB271DA7E0003AD3FB /* EmpnameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3D4ED9271DA7E0003AD3FB /* EmpnameTableViewCell.swift */; };
+		7E3D4EDC271DA7E0003AD3FB /* EmpnameTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E3D4EDA271DA7E0003AD3FB /* EmpnameTableViewCell.xib */; };
+		7E3FEFFF27212BF900C7F2D3 /* IdAndImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3FEFFD27212BF900C7F2D3 /* IdAndImageCell.swift */; };
+		7E3FF00027212BF900C7F2D3 /* IdAndImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E3FEFFE27212BF900C7F2D3 /* IdAndImageCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		7E16536C271806C10067284A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E16536F271806C10067284A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E165371271806C10067284A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E16537727180C4D0067284A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7E3D4ECD271D3696003AD3FB /* EmployeeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeViewModel.swift; sourceTree = "<group>"; };
+		7E3D4ECF271D3A0C003AD3FB /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		7E3D4ED5271DA7A6003AD3FB /* EmpemailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpemailTableViewCell.swift; sourceTree = "<group>"; };
+		7E3D4ED6271DA7A6003AD3FB /* EmpemailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmpemailTableViewCell.xib; sourceTree = "<group>"; };
+		7E3D4ED9271DA7E0003AD3FB /* EmpnameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpnameTableViewCell.swift; sourceTree = "<group>"; };
+		7E3D4EDA271DA7E0003AD3FB /* EmpnameTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmpnameTableViewCell.xib; sourceTree = "<group>"; };
+		7E3FEFFD27212BF900C7F2D3 /* IdAndImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdAndImageCell.swift; sourceTree = "<group>"; };
+		7E3FEFFE27212BF900C7F2D3 /* IdAndImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IdAndImageCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +77,19 @@
 				7E165363271806BF0067284A /* AppDelegate.swift */,
 				7E165365271806BF0067284A /* SceneDelegate.swift */,
 				7E165367271806BF0067284A /* ViewController.swift */,
+				7E3D4ECF271D3A0C003AD3FB /* DetailsViewController.swift */,
 				7E165369271806BF0067284A /* Main.storyboard */,
 				7E16536C271806C10067284A /* Assets.xcassets */,
 				7E16536E271806C10067284A /* LaunchScreen.storyboard */,
 				7E165371271806C10067284A /* Info.plist */,
+				7E16537727180C4D0067284A /* User.swift */,
+				7E3D4ECD271D3696003AD3FB /* EmployeeViewModel.swift */,
+				7E3D4ED5271DA7A6003AD3FB /* EmpemailTableViewCell.swift */,
+				7E3D4ED6271DA7A6003AD3FB /* EmpemailTableViewCell.xib */,
+				7E3D4ED9271DA7E0003AD3FB /* EmpnameTableViewCell.swift */,
+				7E3D4EDA271DA7E0003AD3FB /* EmpnameTableViewCell.xib */,
+				7E3FEFFD27212BF900C7F2D3 /* IdAndImageCell.swift */,
+				7E3FEFFE27212BF900C7F2D3 /* IdAndImageCell.xib */,
 			);
 			path = "Protocol Composition";
 			sourceTree = "<group>";
@@ -127,6 +154,9 @@
 			files = (
 				7E165370271806C10067284A /* LaunchScreen.storyboard in Resources */,
 				7E16536D271806C10067284A /* Assets.xcassets in Resources */,
+				7E3D4ED8271DA7A6003AD3FB /* EmpemailTableViewCell.xib in Resources */,
+				7E3D4EDC271DA7E0003AD3FB /* EmpnameTableViewCell.xib in Resources */,
+				7E3FF00027212BF900C7F2D3 /* IdAndImageCell.xib in Resources */,
 				7E16536B271806BF0067284A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +168,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E16537827180C4D0067284A /* User.swift in Sources */,
 				7E165368271806BF0067284A /* ViewController.swift in Sources */,
 				7E165364271806BF0067284A /* AppDelegate.swift in Sources */,
+				7E3D4EDB271DA7E0003AD3FB /* EmpnameTableViewCell.swift in Sources */,
+				7E3FEFFF27212BF900C7F2D3 /* IdAndImageCell.swift in Sources */,
+				7E3D4ED7271DA7A6003AD3FB /* EmpemailTableViewCell.swift in Sources */,
+				7E3D4ECE271D3696003AD3FB /* EmployeeViewModel.swift in Sources */,
 				7E165366271806BF0067284A /* SceneDelegate.swift in Sources */,
+				7E3D4ED0271D3A0C003AD3FB /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
